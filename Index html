@@ -168,3 +168,99 @@
 ├── index-en.html      ← النسخة الإنجليزية
 ├── index-fr.html      ← النسخة الفرنسية
 └── block-ads.sh       ← السكريبت ديال منع الإعلانات
+
+
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <title>موقع حجب الإعلانات</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background-color: #1a1a1a;
+      color: #f0f0f0;
+      line-height: 1.6;
+    }
+
+    header {
+      background: linear-gradient(90deg, #0f9d58, #34a853);
+      padding: 30px 0;
+      text-align: center;
+      font-size: 28px;
+      font-weight: bold;
+      color: white;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+    }
+
+    main {
+      padding: 50px 20px;
+      text-align: center;
+    }
+
+    main h1 {
+      font-size: 36px;
+      margin-bottom: 10px;
+      color: #4CAF50;
+    }
+
+    main p {
+      font-size: 18px;
+      max-width: 600px;
+      margin: 0 auto;
+      color: #ccc;
+    }
+
+    footer {
+      background-color: #111;
+      padding: 20px 10px;
+      text-align: center;
+      font-size: 14px;
+      border-top: 1px solid #333;
+      position: relative;
+      bottom: 0;
+      width: 100%;
+    }
+
+    footer a {
+      color: #4CAF50;
+      text-decoration: none;
+      margin: 0 10px;
+    }
+
+    footer a:hover {
+      text-decoration: underline;
+    }
+
+    @media (max-width: 600px) {
+      main h1 {
+        font-size: 28px;
+      }
+
+      main p {
+        font-size: 16px;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    مرحباً بكم في موقع حجب الإعلانات
+  </header>
+
+  <main>
+    <h1>حماية تجربة التصفح الخاصة بك</h1>
+    <p>موقعنا مخصص لحجب الإعلانات المزعجة، وتوفير بيئة تصفح نظيفة وآمنة. استمتع بالإنترنت بدون إزعاج أو تتبّع.</p>
+  </main>
+
+  <footer>
+    &copy; 2025 جميع الحقوق محفوظة |
+    <a href="#">سياسة الخصوصية</a> |
+    <a href="#">للتواصل معنا</a>
+  </footer>
+
+</body>
+</html>
