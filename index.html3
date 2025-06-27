@@ -14,3 +14,7 @@
   <p>إذهب إلى إعدادات الهاتف أو الراوتر وبدّل DNS بالخانات أعلاه.</p>
 </body>
 </html>
+echo "127.0.0.1 ads.google.com" >> /etc/hosts
+echo "127.0.0.1 pagead2.googlesyndication.com" >> /etc/hosts
+echo "127.0.0.1 ad.doubleclick.net" >> /etc/hosts
+# ... الخ
