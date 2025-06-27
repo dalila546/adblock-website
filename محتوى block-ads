@@ -1,0 +1,12 @@
+#!/bin/bash
+# سكريبت لحظر بعض الإعلانات عبر /etc/hosts
+
+echo "🔒 إضافة نطاقات إعلانية إلى ملف hosts"
+
+echo "127.0.0.1 ad.doubleclick.net" >> /etc/hosts
+echo "127.0.0.1 pagead2.googlesyndication.com" >> /etc/hosts
+echo "127.0.0.1 googleads.g.doubleclick.net" >> /etc/hosts
+echo "127.0.0.1 ads.youtube.com" >> /etc/hosts
+echo "127.0.0.1 tpc.googlesyndication.com" >> /etc/hosts
+
+echo "✅ تم تحديث ملف hosts بنجاح!"
