@@ -2,141 +2,33 @@
 <html lang="ar" dir="rtl">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Adblock - ودّع الإعلانات المزعجة!</title>
+  <title>حظر الإعلانات</title>
   <style>
-    body {
-      font-family: 'Arial', sans-serif;
-      margin: 0;
-      background-color: #f5f5dc; /* Beige */
-      color: #001f3f; /* Navy */
-      direction: rtl;
-    }
-
-    header {
-      background-color: #001f3f;
-      color: #f5f5dc;
-      text-align: center;
-      padding: 40px 20px;
-    }
-
-    header h1 {
-      margin: 0;
-      font-size: 2.5em;
-    }
-
-    .cta-button {
-      margin-top: 20px;
-      background-color: #f5f5dc;
-      color: #001f3f;
-      border: 2px solid #001f3f;
-      padding: 10px 20px;
-      font-size: 1.1em;
-      border-radius: 8px;
-      cursor: pointer;
-      text-decoration: none;
-    }
-
-    section {
-      padding: 40px 20px;
-      text-align: center;
-    }
-
-    section h2 {
-      font-size: 2em;
-      margin-bottom: 20px;
-    }
-
-    ul.features {
-      list-style: none;
-      padding: 0;
-    }
-
-    ul.features li {
-      font-size: 1.2em;
-      margin: 10px 0;
-    }
-
-    .testimonials {
-      background-color: #e6e6cc; /* beige variant */
-      padding: 30px;
-      border-radius: 10px;
-      margin-top: 20px;
-    }
-
-    .testimonials p {
-      font-style: italic;
-      margin: 10px 0;
-    }
-
-    footer {
-      background-color: #001f3f;
-      color: #f5f5dc;
-      text-align: center;
-      padding: 20px;
-    }
-
-    footer a {
-      color: #f5f5dc;
-      margin: 0 10px;
-      text-decoration: none;
-    }
-
-    img {
-      max-width: 100%;
-      border-radius: 10px;
-      margin-top: 20px;
-    }
+    body { font-family: Arial; background: #f4f4f4; padding: 30px; direction: rtl; text-align: right; }
+    .box { background: white; padding: 20px; border-radius: 10px; max-width: 700px; margin: auto; }
+    .lang-switch a { font-size: 24px; margin: 0 5px; text-decoration: none; }
   </style>
 </head>
 <body>
-
-  <!-- ✅ Hero Section -->
-  <header>
-    <h1>🛡️ ودّع الإعلانات المزعجة!</h1>
-    <a class="cta-button" href="#">🔽 حمل الآن</a>
-  </header>
-
-  <!-- ✅ Features -->
-  <section>
-    <h2>✨ مميزات الأداة</h2>
-    <ul class="features">
-      <li>🚫 يمنع الإعلانات تلقائيًا</li>
-      <li>🔒 يحمي الخصوصية</li>
-      <li>⚡ يسرّع التصفح</li>
-      <li>🧠 سهل التثبيت والاستخدام</li>
-    </ul>
-  </section>
-
-  <!-- ✅ Demo (صورة أو فيديو توضيحي) -->
-  <section>
-    <h2>📸 كيف تعمل الأداة؟</h2>
-    <img src="https://via.placeholder.com/600x300.png?text=Demo+Image" alt="لقطة توضيحية للأداة">
-  </section>
-
-  <!-- ✅ Testimonials -->
-  <section>
-    <h2>🗣️ آراء المستخدمين</h2>
-    <div class="testimonials">
-      <p>⭐ "صفحات المواقع ولات خفيفة!"</p>
-      <p>⭐ "الإعلانات اختفت تمامًا، شكرا!"</p>
+  <div class="box">
+    <div class="lang-switch">
+      🌐 اختر اللغة:
+      <a href="index.html">🇸🇦</a>
+      <a href="index-en.html">🇬🇧</a>
+      <a href="index-fr.html">🇫🇷</a>
     </div>
-  </section>
 
-  <!-- ✅ Call to Action -->
-  <section>
-    <h2>📥 حمل الأداة الآن</h2>
-    <a class="cta-button" href="#">🔽 تحميل النسخة المجانية</a>
-  </section>
+    <h1>🚫 حظر الإعلانات من الإنترنت</h1>
+    <p>لتمنع الإعلانات من جميع التطبيقات والمتصفحات، يمكنك تغيير إعدادات DNS في جهازك.</p>
 
-  <!-- ✅ Footer -->
-  <footer>
-    <p>📬 روابط مهمة:</p>
-    <a href="#">سياسة الخصوصية</a>
-    <a href="#">شروط الاستخدام</a>
-    <a href="#">تواصل معنا</a>
-  </footer>
+    <h3>🔐 أكواد DNS:</h3>
+    <ul>
+      <li><strong>AdGuard:</strong> 94.140.14.14 و 94.140.15.15</li>
+      <li><strong>NextDNS:</strong> 45.90.28.0 و 45.90.30.0</li>
+    </ul>
 
+    <h3>📥 تحميل سكريبت الحظر:</h3>
+    <p><a href="block-ads.sh" download>اضغط هنا لتحميل block-ads.sh</a></p>
+  </div>
 </body>
 </html>
-<script src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
