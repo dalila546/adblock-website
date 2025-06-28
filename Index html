@@ -31,7 +31,10 @@
       border-radius: 8px;
       font-size: 1em;
 header 
-<img src="logo.svg" alt="ADS Blocker Logo" style="width: 150px;">
+<header style="display: flex; align-items: center; justify-content: center; gap: 15px; padding: 30px 20px; background-color: #0b1f3a; border-bottom: 3px solid #d4af37;">
+  <img src="logo.svg" alt="ADS Blocker Logo" style="width: 50px; height: auto;">
+  <h1 style="color: #f5f5dc; margin: 0; font-size: 28px;">ADS Blocker</h1>
+</header>
     }
     section {
       padding: 40px 20px;
