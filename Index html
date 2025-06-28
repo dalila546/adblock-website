@@ -4,9 +4,41 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Adblock - ودّع الإعلانات المزعجة</title>
-  <style>
+  <style>[data-lang] {
+  display: none;
+}
+
+[data-lang].active {
+  display: block;
+}
     body {<div class="language-switcher">
   <button class="lang-btn">🌐</button>
+  <div class="lang-menu">
+    <button onclick="setLanguage('ar')">🇩🇿 العربية</button>
+    <button onclick="setLanguage('en')">🇺🇸 English</button>
+    <button onclick="setLanguage('fr')">🇫🇷 Français</button>
+  </div>
+</div>
+
+<header>
+  <h1 data-lang="ar">مرحباً بكم في موقع حجب الإعلانات</h1>
+  <h1 data-lang="en">Welcome to the Ad Blocker Website</h1>
+  <h1 data-lang="fr">Bienvenue sur le site de blocage des publicités</h1>
+</header>
+
+<main>
+  <h2 data-lang="ar">تصفح آمن وخالٍ من الإعلانات</h2>
+  <h2 data-lang="en">Safe and Ad-Free Browsing</h2>
+  <h2 data-lang="fr">Navigation sûre sans publicités</h2>
+
+  <p data-lang="ar">موقعنا يوفر لك تجربة تصفح نظيفة بدون إعلانات مزعجة أو تتبع.</p>
+  <p data-lang="en">Our site offers a clean browsing experience without annoying ads or tracking.</p>
+  <p data-lang="fr">Notre site vous offre une navigation propre, sans publicités ni traçage.</p>
+
+  <button class="btn" data-lang="ar">ابدأ الآن</button>
+  <button class="btn" data-lang="en">Start Now</button>
+  <button class="btn" data-lang="fr">Commencer</button>
+</main>class="lang-btn">🌐</button>
   <div class="lang-menu">
     <a href="#">🇩🇿 العربية</a>
     <a href="#">🇺🇸 English</a>
