@@ -360,6 +360,10 @@
     <a href="#">سياسة الخصوصية</a> |
     <a href="#">للتواصل معنا</a>
   </footer>
-
+<footer>
+  &copy; 2025 جميع الحقوق محفوظة |
+  <a href="privacy.html">سياسة الخصوصية</a> |
+  <a href="#">للتواصل معنا</a>
+</footer>
 </body>
 </html>
