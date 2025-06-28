@@ -1,357 +1,42 @@
 <!DOCTYPE html>
 <html lang="ar" dir="rtl">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Adblock - ودّع الإعلانات المزعجة</title>
-  <style>[data-lang] {
-  display: none;
-}
-
-[data-lang].active {
-  display: block;
-}
-    body {<div class="language-switcher">
-  <button class="lang-btn">🌐</button>
-  <div class="lang-menu">
-    <button onclick="setLanguage('ar')">🇩🇿 العربية</button>
-    <button onclick="setLanguage('en')">🇺🇸 English</button>
-    <button onclick="setLanguage('fr')">🇫🇷 Français</button>
-  </div>
-</div>
-
-<header>
-  <h1 data-lang="ar">مرحباً بكم في موقع حجب الإعلانات</h1>
-  <h1 data-lang="en">Welcome to the Ad Blocker Website</h1>
-  <h1 data-lang="fr">Bienvenue sur le site de blocage des publicités</h1>
-</header>
-
-<main>
-  <h2 data-lang="ar">تصفح آمن وخالٍ من الإعلانات</h2>
-  <h2 data-lang="en">Safe and Ad-Free Browsing</h2>
-  <h2 data-lang="fr">Navigation sûre sans publicités</h2>
-
-  <p data-lang="ar">موقعنا يوفر لك تجربة تصفح نظيفة بدون إعلانات مزعجة أو تتبع.</p>
-  <p data-lang="en">Our site offers a clean browsing experience without annoying ads or tracking.</p>
-  <p data-lang="fr">Notre site vous offre une navigation propre, sans publicités ni traçage.</p>
-
-  <button class="btn" data-lang="ar">ابدأ الآن</button>
-  <button class="btn" data-lang="en">Start Now</button>
-  <button class="btn" data-lang="fr">Commencer</button>
-</main>class="lang-btn">🌐</button>
-  <div class="lang-menu">
-    <a href="#">🇩🇿 العربية</a>
-    <a href="#">🇺🇸 English</a>
-    <a href="#">🇫🇷 Français</a>
-  </div>
-</div>
-      font-family: 'Arial', sans-serif;
-      margin: 0;
-      padding: 0;
-      background-color: #f9f9f9;
-      color: #222;
-      direction: rtl;
-    }
-    header {
-      background-color: #2c3e50;
-      color: white;
-      padding: 40px 20px;
-      text-align: center;
-    }
-    header h1 {
-      font-size: 2.5em;
-      margin-bottom: 10px;
-    }
-    header a {
-      background: #3498db;
-      color: white;
-      padding: 12px 25px;
-      text-decoration: none;
-      border-radius: 8px;
-      font-size: 1em;
-header 
-<header style="display: flex; align-items: center; justify-content: center; gap: 15px; padding: 30px 20px; background-color: #0b1f3a; border-bottom: 3px solid #d4af37;">
-  <img src="logo.svg" alt="ADS Blocker Logo" style="width: 50px; height: auto;">
-  <h1 style="color: #f5f5dc; margin: 0; font-size: 28px;">ADS Blocker</h1>
-</header>
-    }
-    section {
-      padding: 40px 20px;
-      max-width: 800px;
-      margin: auto;
-    }
-    .features ul {
-      list-style: none;
-      padding: 0;
-    }
-    .features li {
-      margin-bottom: 15px;
-      font-size: 1.2em;
-    }
-    .testimonials blockquote {
-      background: #ecf0f1;
-      border-right: 5px solid #3498db;
-      padding: 15px;
-      margin-bottom: 20px;
-      font-style: italic;
-    }
-    footer {
-      background-color: #2c3e50;
-      color: white;
-      padding: 30px 20px;
-      text-align: center;
-    }
-    footer a {
-      color: #ecf0f1;
-      margin: 0 10px;
-      text-decoration: none;
-    }
-  </style>
-</head>
-<body>
-
-  <!-- ✅ العنوان الرئيسي -->
-  <header>
-    <h1>🛡️ ودّع الإعلانات المزعجة!</h1>
-    <a href="#">🔽 حمّل الآن</a>
-  </header>
-
-  <!-- 📌 مزايا الأداة -->
-  <section class="features">
-    <h2>مميزات الأداة</h2>
-    <ul>
-      <li>🚫 يمنع الإعلانات تلقائيًا</li>
-      <li>🔒 يحمي الخصوصية</li>
-      <li>⚡ يسرّع التصفح</li>
-      <li>🧠 سهل التثبيت والاستخدام</li>
-    </ul>
-  </section>
-
-  <!-- 👁️‍🗨️ صور أو فيديو -->
-  <section>
-    <h2>👁️‍🗨️ عرض توضيحي</h2>
-    <p>لقطات شاشة أو فيديو يوضح كيف تعمل الأداة.</p>
-    <!-- مثال لصورة -->
-    <img src="demo.png" alt="لقطة من الأداة" style="max-width:100%; border-radius: 10px;" />
-  </section>
-
-  <!-- 🗣️ آراء المستخدمين -->
-  <section class="testimonials">
-    <h2>آراء المستخدمين</h2>
-    <blockquote>📢 "صفحات المواقع ولات خفيفة!"</blockquote>
-    <blockquote>📢 "الإعلانات اختفت تمامًا، شكرا!"</blockquote>
-  </section>
-
-  <!-- 📥 زر التحميل -->
-  <section style="text-align: center;">
-    <a href="#" style="background:#e67e22; padding:15px 30px; color:white; border-radius:10px; text-decoration:none; font-size:1.2em;">📥 تحميل النسخة المجانية</a>
-  </section>
-
-  <!-- 📬 التذييل -->
-  <footer>
-    <p>
-      <a href="#">سياسة الخصوصية</a> | 
-      <a href="#">شروط الاستخدام</a> | 
-      <a href="#">تواصل معنا</a>
-    </p>
-    <p>تابعنا: 
-      <a href="#">🔗 فيسبوك</a> | 
-      <a href="#">🔗 تويتر</a> | 
-      <a href="#">🔗 إنستغرام</a>
-    </p>
-  </footer>
-
-</body>
-</html>
-<!DOCTYPE html>
-<html lang="ar">
-<head>
   <meta charset="UTF-8">
-  <title>حظر الإعلانات من الإنترنت</title>
-  <style>
-    body {
-      font-family: Arial, sans-serif;
-      direction: rtl;
-      background-color: #f5f5f5;
-      padding: 30px;
-      color: #333;
-    }
-    .card {
-      background-color: white;
-      padding: 20px;
-      border-radius: 8px;
-      box-shadow: 0 0 10px rgba(0,0,0,0.1);
-      max-width: 700px;
-      margin: auto;
-    }
-    h1 {
-      color: #c0392b;
-    }
-  </style>
-</head>
-<body>
-  <div class="card">
-    <h1>🚫 حظر الإعلانات من الإنترنت</h1>
-    <p>لحظر الإعلانات من جميع التطبيقات والمتصفحات، يمكنك تغيير إعدادات DNS على جهازك:</p>
-    
-    <h3>🔐 أكواد DNS:</h3>
-    <ul>
-      <li><strong>AdGuard DNS:</strong> 94.140.14.14 و 94.140.15.15</li>
-      <li><strong>NextDNS:</strong> 45.90.28.0 و 45.90.30.0</li>
-    </ul>
-
-    <h3>📥 سكريبت لحظر الإعلانات على Linux / Android (root):</h3>
-    <p>حمّل الملف التالي وأضف محتواه إلى <code>/etc/hosts</code>:</p>
-    <a href="block-ads.sh" download>تحميل block-ads.sh</a>
-  </div>
-</body>
-</html>
-/ (الجذر)
-│
-├── index.html         ← النسخة العربية
-├── index-en.html      ← النسخة الإنجليزية
-├── index-fr.html      ← النسخة الفرنسية
-└── block-ads.sh       ← السكريبت ديال منع الإعلانات
-
-
-<!DOCTYPE html>
-<html lang="ar" dir="rtl">
-<head>
-  <meta charset="UTF-8">
-  <title>موقع حجب الإعلانات</title>
-  <style>
-    body {
-      margin: 0;
-      padding: 0;
-      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-      background-color: #1a1a1a;
-      color: #f0f0f0;
-      line-height: 1.6;
-    }
-
-    header {
-      background: linear-gradient(90deg, #0f9d58, #34a853);
-      padding: 30px 0;
-      text-align: center;
-      font-size: 28px;
-      font-weight: bold;
-      color: white;
-      box-shadow: 0 4px 10px rgba(0,0,0,0.2);
-    }
-
-    main {
-      padding: 50px 20px;
-      text-align: center;
-    }
-
-    main h1 {
-      font-size: 36px;
-      margin-bottom: 10px;
-      color: #4CAF50;
-    }
-
-    main p {
-      font-size: 18px;
-      max-width: 600px;
-      margin: 0 auto;
-      color: #ccc;
-    }
-
-    footer {
-      background-color: #111;
-      padding: 20px 10px;
-      text-align: center;
-      font-size: 14px;
-      border-top: 1px solid #333;
-      position: relative;
-      bottom: 0;
-      width: 100%;
-    }
-
-    footer a {
-      color: #4CAF50;
-      text-decoration: none;
-      margin: 0 10px;
-    }
-
-    footer a:hover {
-      text-decoration: underline;
-    }
-
-    @media (max-width: 600px) {
-      main h1 {
-        font-size: 28px;
-      }
-
-      main p {
-        font-size: 16px;
-      }
-    }
-  </style>
-</head>
-<body>
-
-  <header>
-    مرحباً بكم في موقع حجب الإعلانات
-  </header>
-
-  <main>
-    <h1>حماية تجربة التصفح الخاصة بك</h1>
-    <p>موقعنا مخصص لحجب الإعلانات المزعجة، وتوفير بيئة تصفح نظيفة وآمنة. استمتع بالإنترنت بدون إزعاج أو تتبّع.</p>
-  </main>
-
-  <footer>
-    &copy; 2025 جميع الحقوق محفوظة |
-    <a href="#">سياسة الخصوصية</a> |
-    <a href="#">للتواصل معنا</a>
-  </footer>
-
-</body>
-</html>
-<!DOCTYPE html>
-<html lang="ar" dir="rtl">
-<head>
-  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>موقع حجب الإعلانات</title>
   <style>
     body {
       margin: 0;
       padding: 0;
       font-family: 'Cairo', sans-serif;
-      background-color: #0b1f3a; /* كحلي */
-      color: #f5f5dc; /* بيج */
+      background-color: #0b1f3a;
+      color: #f5f5dc;
     }
-
     header {
       background-color: #0b1f3a;
       padding: 40px 0;
       text-align: center;
       border-bottom: 3px solid #d4af37;
     }
-
     header h1 {
       margin: 0;
       font-size: 36px;
       color: #f5f5dc;
     }
-
     main {
       padding: 60px 20px;
       text-align: center;
     }
-
     main h2 {
       font-size: 28px;
       color: #d4af37;
       margin-bottom: 20px;
     }
-
     main p {
       font-size: 18px;
       max-width: 600px;
       margin: 0 auto 30px;
     }
-
     .btn {
       background-color: #f5f5dc;
       color: #0b1f3a;
@@ -362,11 +47,9 @@ header
       cursor: pointer;
       transition: background-color 0.3s ease;
     }
-
     .btn:hover {
       background-color: #d4af37;
     }
-
     footer {
       background-color: #09182f;
       color: #f5f5dc;
@@ -374,14 +57,12 @@ header
       padding: 20px 10px;
       border-top: 1px solid #314a70;
     }
-
     footer a {
       color: #f5f5dc;
       text-decoration: none;
       margin: 0 10px;
       font-weight: bold;
     }
-
     footer a:hover {
       color: #d4af37;
     }
@@ -390,7 +71,7 @@ header
 <body>
 
   <header>
-    <h1>مرحبا بكم في موقع حجب الإعلانات</h1>
+    <h1>🛡️ ودّع الإعلانات المزعجة!</h1>
   </header>
 
   <main>
@@ -401,8 +82,9 @@ header
 
   <footer>
     &copy; 2025 جميع الحقوق محفوظة |
-  <a href="privacy.html">سياسة الخصوصية</a> |
-  <a href="#">للتواصل معنا</a>
-</footer>
+    <a href="#">سياسة الخصوصية</a> |
+    <a href="#">للتواصل معنا</a>
+  </footer>
+
 </body>
 </html>
