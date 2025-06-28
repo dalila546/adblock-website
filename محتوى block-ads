@@ -9,4 +9,4 @@ echo "127.0.0.1 googleads.g.doubleclick.net" >> /etc/hosts
 echo "127.0.0.1 ads.youtube.com" >> /etc/hosts
 echo "127.0.0.1 tpc.googlesyndication.com" >> /etc/hosts
 
-echo "✅ تم تحديث ملف hosts بنجاح!"
+echo "✅ تم تحديث ملف hosts بنجاح!" 
