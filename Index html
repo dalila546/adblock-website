@@ -30,6 +30,8 @@
       text-decoration: none;
       border-radius: 8px;
       font-size: 1em;
+header 
+<img src="logo.svg" alt="ADS Blocker Logo" style="width: 150px;">
     }
     section {
       padding: 40px 20px;
