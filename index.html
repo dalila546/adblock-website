@@ -214,5 +214,29 @@
     <a href="#">للتواصل معنا</a>
   </footer>
 
-</body>
+</body><script>
+  function setLanguage(lang) {
+    document.querySelectorAll('[data-lang]').forEach(el => {
+      el.classList.remove('active');
+      if (el.getAttribute('data-lang') === lang) {
+        el.classList.add('active');
+      }
+    });
+    // احفظ اللغة في localStorage (اختياري)
+    localStorage.setItem('lang', lang);
+  }
+
+  // عند التحميل — استعادة اللغة
+  window.addEventListener('DOMContentLoaded', () => {
+    const savedLang = localStorage.getItem('lang') || 'ar';
+    setLanguage(savedLang);
+  });
+
+  // زر القائمة
+  const langBtn = document.querySelector('.lang-btn');
+  const langMenu = document.querySelector('.lang-menu');
+  langBtn.addEventListener('click', () => {
+    langMenu.classList.toggle('open');
+  });
+</script>
 </html>
