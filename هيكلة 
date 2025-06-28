@@ -2,4 +2,4 @@
 │
 ├── index.html          ← صفحة الموقع
 ├── block-ads.sh        ← سكريبت لحظر الإعلانات (Linux / Android Root)
-└── README.md           ← شرح المشروع 
+└── README.md           ← شرح المشروع  
