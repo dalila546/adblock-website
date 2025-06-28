@@ -5,7 +5,14 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Adblock - ودّع الإعلانات المزعجة</title>
   <style>
-    body {
+    body {<div class="language-switcher">
+  <button class="lang-btn">🌐</button>
+  <div class="lang-menu">
+    <a href="#">🇩🇿 العربية</a>
+    <a href="#">🇺🇸 English</a>
+    <a href="#">🇫🇷 Français</a>
+  </div>
+</div>
       font-family: 'Arial', sans-serif;
       margin: 0;
       padding: 0;
